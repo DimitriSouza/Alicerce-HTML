@@ -25,12 +25,16 @@
   padding: 2%;
 
 }
+iframe {
+border-color: chocolate;
 
+}
 p {
   font-size: medium;
-  display: flexbox;
-  align-self: center;
+    align-self: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: fit-content;
+  text-indent: 20px; 
 }
 
 h1 {
