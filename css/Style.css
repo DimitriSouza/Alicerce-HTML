@@ -12,7 +12,10 @@
   flex-direction: row;
   background-color: rgba(255, 228, 196, 0.8);
   text-align: justify;
-  border-radius: 20px;
+  border: 2px;
+  border-radius: 10px;
+  border-style: inset;
+  border-color: chocolate;
   padding: 2%;
   margin-left: auto;
   margin-right: auto;
@@ -28,7 +31,10 @@
 
     text-align: justify;
 
-    border-radius: 20px;
+    border: 2px;
+    border-radius: 10px;
+    border-style: inset;
+    border-color: chocolate;
     padding: 2%;
 
     margin-left: auto;
@@ -43,16 +49,24 @@
   flex-direction: column;
   margin-right: 20px;
   align-items: center;
+
 }
 
 .estilobloco {
   display: flex;
   flex-direction: column;
   background-color: rgba(241, 236, 229, 0.5);
+  border: 2px;
   border-radius: 10px;
+  border-style: inset;
+  border-color: chocolate;
   padding: 1%;
   min-width: 280px;
   max-width: 1200px;
+  background-image: url(../Files/parchment.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 footer {
@@ -60,12 +74,14 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   background-color: rgba(228, 169, 121, 0.582);
-  border: 10px;
-  border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
   min-width: 280px;
   max-width: 1200px;
+  border: 2px;
+  border-radius: 10px;
+  border-style: inset;
+  border-color: chocolate;
 }
 
 iframe {
@@ -75,6 +91,10 @@ iframe {
   border-color: rgb(210, 105, 30);
   min-width: 280px;
   max-width: 1200px;
+  border: 2px;
+  border-radius: 10px;
+  border-style: inset;
+  border-color: chocolate;
 }
 
 
@@ -123,7 +143,9 @@ h1 {
   height: 60px;
   cursor: pointer;
   background: rgb(210, 105, 30);
-  border: 1px solid rgb(210, 105, 30);
+  border-radius: 10px;
+  border-style: inset;
+  border-color: chocolate;
   outline: none;
   transition: 1s ease-in-out;
 }
@@ -133,15 +155,13 @@ svg {
   left: 0;
   top: 0;
   fill: none;
-  stroke: #000000;
-  stroke-dasharray: 150 480;
-  stroke-dashoffset: 150;
-  transition: 1s ease-in-out;
+ 
+  
 }
 
 .btn:hover {
   transition: 1s ease-in-out;
-  background: rgb(22, 160, 102);
+  background: rgb(255, 255, 255);
 }
 
 .btn:hover svg {
