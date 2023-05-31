@@ -21,6 +21,9 @@
   margin-right: auto;
   min-width: 280px;
   max-width: 1200px;
+  background-image: url(../Files/parchment.png);
+  
+  background-position: center;
 }
 
 @media (max-width: 768px) {
@@ -41,6 +44,9 @@
     margin-right: auto;
     min-width: 280px;
     max-width: 1200px;
+    background-image: url(../Files/parchment.png);
+
+    background-position: center;
   }
 }
 
@@ -63,9 +69,7 @@
   padding: 1%;
   min-width: 280px;
   max-width: 1200px;
-  background-image: url(../Files/parchment.png);
-  background-repeat: no-repeat;
-  background-position: center;
+
   
 
 }
