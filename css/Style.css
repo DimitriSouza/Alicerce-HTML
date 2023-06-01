@@ -26,25 +26,23 @@
   background-position: center;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 780px) {
+  
+  
+  
   .container {
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 228, 196, 0.8);
-
     text-align: justify;
-
     border: 2px;
     border-radius: 10px;
     border-style: inset;
     border-color: chocolate;
     padding: 2%;
-
     margin-left: auto;
     margin-right: auto;
-    min-width: 280px;
     background-image: url(../Files/parchment.png);
-
     background-position: center;
   }
 }
