@@ -26,7 +26,7 @@
   background-position: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .container {
     display: flex;
     flex-direction: column;
